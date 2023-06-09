@@ -1,0 +1,212 @@
+/* Estilos generales */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilos específicos para cada página */
+
+/* Estilos para la página de productos */
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  width: 30%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+.product h3 {
+  margin: 0;
+}
+
+.product p {
+  margin-top: 10px;
+}
+
+/* Estilos para la página de suscripción */
+.subscription-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.subscription-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.subscription-form input[type="text"],
+.subscription-form input[type="email"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.subscription-form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Estilos para la página de pago */
+.payment-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.payment-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.payment-form input[type="text"],
+.payment-form input[type="email"],
+.payment-form input[type="number"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.payment-form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Estilos para la página de carrito de compras */
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-table th,
+.cart-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Estilos para la página de contacto */
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Estilos para la página de noticias */
+.news-list {
+  list-style: none;
+  padding: 0;
+}
+
+.news-item {
+  margin-bottom: 20px;
+}
+
+.news-item h3 {
+  margin: 0;
+}
+
+.news-item p {
+  margin-top: 10px;
+}
+
+/* Estilos para la página de redes sociales */
+.social-list {
+  list-style: none;
+  padding: 0;
+}
+
+.social-list li {
+  margin-bottom: 10px;
+}
+
+.social-list li a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+}
